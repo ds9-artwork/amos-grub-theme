@@ -23,7 +23,7 @@ title-text: ""
 title-font: "DejaVu Sans Mono Regular 12"
 
 message-font: "DejaVu Sans Mono Regular 12"
-message-color: "#212121"
+message-color: "#ffffff"
 message-bg-color: "#B0BEC5" # TODO: whatever this is for?
 
 desktop-image: "grub_background.png" # background
@@ -41,7 +41,7 @@ terminal-font: "DejaVu Sans Mono Regular 12"
     left = 50%-196
     text = "Select Operating System"
     font = "DejaVu Sans Mono Regular 32"
-    color = "#B0BEC5"
+    color = "#ffffff"
 }
 
 # Show the boot menu
@@ -51,7 +51,7 @@ terminal-font: "DejaVu Sans Mono Regular 12"
     width = 400
     top = 50%-150
     height = 300
-    item_color = "#212121"
+    item_color = "#ffffff"
     selected_item_color = "#ffffff"
     icon_width = 4
     icon_height = 0
@@ -83,7 +83,7 @@ terminal-font: "DejaVu Sans Mono Regular 12"
     height = 32
     show_text = true
     font = "DejaVu Sans Mono Regular 12"
-    text_color = "#212121"
+    text_color = "#ffffff"
     align = "right"
     text = "@TIMEOUT_NOTIFICATION_MIDDLE@"
     bar_style = "progress_bar2_*.png"    
@@ -95,6 +95,6 @@ terminal-font: "DejaVu Sans Mono Regular 12"
     left = 16
     text = "[Enter] Boot the selected OS [C] GRUB Command Line"
     font = "DejaVu Sans Mono Regular 12"
-    color = "#212121"
+    color = "#ffffff"
 }
 
